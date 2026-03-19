@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌙 Eid Mubarak, My Love! ❤️</title>
+    <!-- Link to the CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- This div creates the floating lanterns in the background -->
+    <div class="lanterns"></div>
+
+    <!-- This is the main content card in the center of the page -->
+    <div class="container">
+        <h1 class="eid-title">✨ Eid Mubarak ✨</h1>
+        <h2 class="personal-message">To My Dearest [Girlfriend's Name],</h2>
+
+        <!-- This is where your personal message goes -->
+        <p class="message-text">
+            On this blessed day, I pray that our love continues to grow and that your life is filled with as much happiness as you've given me. May this Eid bring you endless joy, peace, and lots of sweet treats! I miss you and can't wait to celebrate with you.
+        </p>
+        <p class="signature">With all my love,</p>
+        <p class="signature-name">[Your Name]</p>
+
+        <!-- Photo Gallery Section -->
+        <div class="gallery-section">
+            <h3>Our Beautiful Memories 🌸</h3>
+            <div class="gallery-container">
+                <!-- The images will be loaded here by JavaScript -->
+                <div class="gallery-slider" id="gallerySlider">
+                    <!-- Example of how an image will look:
+                    <img src="images/photo1.jpg" alt="Memory 1" class="gallery-image">
+                    -->
+                </div>
+                <!-- Navigation Buttons for the gallery -->
+                <button class="gallery-btn prev-btn" onclick="changeSlide(-1)">❮</button>
+                <button class="gallery-btn next-btn" onclick="changeSlide(1)">❯</button>
+            </div>
+            <!-- Dots to show which image you're on -->
+            <div class="gallery-dots" id="galleryDots"></div>
+        </div>
+    </div>
+
+    <!-- Link to the JavaScript file. It's placed at the end so the page loads faster -->
+    <script src="script.js"></script>
+</body>
+</html>
